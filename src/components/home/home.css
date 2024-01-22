@@ -3,7 +3,7 @@
 }
 
 .home{
-  background: url(../../assets//bitcoin-home.jpg);
+  background: url(../../assets//main.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -83,6 +83,98 @@
   height: 300px;
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
+.form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 14px;
+  max-width: 450px; /* Reduce the width */
+  margin: auto;
+  margin-right: -28rem; /* Adjust the negative margin as needed */
+  text-align: center;
+}
+
+.form-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #0c286a;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  margin-bottom: 0.5rem;
+}
+
+.form-button {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+
+.form-service {
+  padding: 0.8rem; /* Adjust padding for a smaller box */
+  border-radius: 18px; /* Adjust border-radius for a smaller box */
+  border: 1px solid var(--title-color);
+  margin-bottom: 0.8rem; /* Increase space between services */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.form-service:hover {
+  background-color: grey;
+  color: white; /* Change text color on hover if needed */
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem; /* Increase space between columns */
+}
+
+.form-button {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.form-button button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color:rgb(21, 21, 54);
+  color: white;
+  border: none;
+  border-radius: 20px; /* Adjust the border-radius for the curve effect */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  position: relative;
+}
+
+.form-button button span {
+  margin-left: 5px; /* Adjust the spacing between "Next" and the arrow */
+}
+
+.form-button button:hover {
+  background-color: var(--title-color-dark);
+}
+.small_text{
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+.form-image {
+  width: 100%; /* Adjust the width as needed */
+  max-height: 200px; /* Adjust the max height as needed */
+  margin-bottom: 1rem; /* Adjust the margin as needed */
+}
+
 
 @keyframes profile__animate {
   0% {
