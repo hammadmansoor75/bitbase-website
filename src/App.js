@@ -15,13 +15,13 @@ function App() {
       <Header></Header>
       <main className="main">
         <Home></Home>
-        <About></About>
+        {/* <About></About> */}
         <Skills></Skills>
-        <Service2></Service2>
+        {/* <Service2></Service2> */}
         <Qualification></Qualification>
         <Contact></Contact>
       </main>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
       <Scrollup></Scrollup>
     </div>
   );

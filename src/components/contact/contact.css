@@ -5,6 +5,35 @@
   padding: 3rem;
 }
 
+.contact{
+  background-color: #0c286a;
+}
+
+.contact_title{
+  color: white;
+}
+
+.contact_flex{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_contact{
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.button_contact:hover{
+  color: white;
+  background-color: #0c286a;
+  border: 1px solid white;
+}
+
 .contact__info {
   display: grid;
   row-gap: 1rem;

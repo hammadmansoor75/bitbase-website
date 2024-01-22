@@ -1,6 +1,44 @@
 .qualification__container {
 }
 
+.qualification{
+  
+  padding: 20px 50px;
+}
+
+.main_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+}
+
+.inner_item{
+  margin: 10px;
+}
+
+.left_heading{
+  color: #0c286a;
+  font-size: 3rem;
+}
+
+.left_content{
+  font-size: 1.1rem;
+}
+
+.inner_heading{
+  color: #0c286a;
+}
+
+.inner_content h2{
+  color: #0c286a;
+}
+
 .qualification__tabs {
   display: flex;
   justify-content: center;
