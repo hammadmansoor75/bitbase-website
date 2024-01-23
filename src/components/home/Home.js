@@ -16,7 +16,7 @@ export default function Home() {
           
           {/* Form Section */}
           <div className="form-container">
-            <img src={form} alt="Form Image" className="form-image" />
+            <img src={form} alt="Form" className="form-image" />
             <h2 className="form-heading">What are you interested in?</h2>
             <p className='small_text'>Select all that apply:</p>
 

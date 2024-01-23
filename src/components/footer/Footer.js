@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container footer">
-        <h1 className="footer__title">Hammad</h1>
+        <h1 className="footer__title">BitBase</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -34,7 +34,7 @@ export default function Footer() {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; Hammad Mansoor. All rights reserved.
+          &#169; Bitbase. All rights reserved.
         </span>
       </div>
     </footer>

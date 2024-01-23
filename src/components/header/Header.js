@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
+import mainlogo from '../../assets/mainlogo-removebg.png'
 export default function Header() {
   /* Change Background Header */
   window.addEventListener('scroll', function () {
@@ -13,7 +14,7 @@ export default function Header() {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Bitbase
+          <img src = {mainlogo} className='mainlogo' alt='logo' ></img>
         </a>
 
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
@@ -59,7 +60,7 @@ export default function Header() {
 
            
 
-            <li className="nav__item">
+            <li className="nav__item rounded-btn">
               <a
                 href="#contact"
                 onClick={() => setActiveNav('#contact')}
@@ -69,7 +70,7 @@ export default function Header() {
                     : 'nav__link'
                 }
               >
-                <i className="uil uil-message nav__icon"></i> Contact
+                <i className="uil uil-message nav__icon"></i> Book a Call?
               </a>
             </li>
           </ul>

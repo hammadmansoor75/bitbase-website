@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import AboutImg from '../../assets/aboutHammad.jpeg';
+// import AboutImg from '../../assets/aboutHammad.jpeg';
 import CV from '../../assets/John-Cv.pdf';
 import Info from './Info';
 export default function About() {
@@ -9,7 +9,7 @@ export default function About() {
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">My Introduction</span>
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img"></img>
+        {/* <img src={AboutImg} alt="" className="about__img"></img> */}
         <div className="about__data">
           <Info></Info>
           <p className="about__description">About wali description</p>

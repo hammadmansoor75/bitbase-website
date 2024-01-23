@@ -21,7 +21,7 @@ function App() {
         <Qualification></Qualification>
         <Contact></Contact>
       </main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
       <Scrollup></Scrollup>
     </div>
   );

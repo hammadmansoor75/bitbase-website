@@ -4,7 +4,28 @@
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: rgb(21, 21, 54);
+  background-color: #000040;
+}
+
+.rounded-btn{
+  border: 1px solid #f49529;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: medium;
+  color: #000040;
+  background-color: #f49529;
+}
+
+.rounded-btn:hover{
+  border: 1px solid white;
+  font-size: medium;
+  color: white;
+  background-color: #000040;
+}
+
+.mainlogo{
+  height: 80px;
+  width: 200px;
 }
 
 .nav {
@@ -24,12 +45,14 @@
 .nav__list {
   display: flex;
   column-gap: 2.5rem;
+  align-items: center;
 }
 
 .nav__icon,
 .nav__close,
 .nav__toggle {
   display: none;
+  font-size: large;
 }
 
 .nav__link {
