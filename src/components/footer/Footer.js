@@ -13,7 +13,7 @@ export default function Footer() {
           </li>
           <li>
             <a href="#portfolio" className="footer__link">
-              Portfolio
+              Services
             </a>
           </li>
           <li>

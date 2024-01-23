@@ -1,17 +1,55 @@
 import React from 'react';
 import './qualification.css';
-import btc from '../../assets/btc.jpg'
+import bitcoin from '../../assets/bitcoin.jpg'
 import { BsSpeedometer } from "react-icons/bs";
 import { LuBinary } from "react-icons/lu"
 import { FcAdvertising } from "react-icons/fc";
 import { FaDollarSign } from "react-icons/fa";
 import { MdDoorSliding } from "react-icons/md";
+import { useEffect } from 'react';
+import anime from 'animejs/lib/anime.es.js';
 export default function Qualification() {
+  useEffect(() => {
+    const items = document.querySelectorAll('.inner_item');
+
+    const animateItems = () => {
+      anime({
+        targets: items,
+        opacity: [0, 1],
+        translateY: [-20, 0], // Change the translateY property to animate upward
+        delay: anime.stagger(200), // Adjust the delay between items
+        easing: 'easeInOutQuad',
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateItems();
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    items.forEach((item) => {
+      observer.observe(item);
+    });
+
+    return () => {
+      items.forEach((item) => {
+        observer.unobserve(item);
+      });
+    };
+  }, []);
+
   return (
     <section className="qualification section">
       <div className='main_container'>
         <div className='left_container'>
-          <img src={btc} alt='btc' className='picture'></img>
+          <img src={bitcoin} alt='btc' className='picture'></img>
           <h1 className='left_heading'>Our digital principles</h1>
           <p className='left_content'>It doesn’t matter if you’re buying media or earning it through SEO and content. Following these 5 undying principles is the secret ingredient to our clients’ success. Ignore these at your peril.</p>
         </div>

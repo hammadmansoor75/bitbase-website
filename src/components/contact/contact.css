@@ -1,3 +1,5 @@
+/* Add these styles to your existing contact.css file */
+
 .contact__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
@@ -5,21 +7,51 @@
   padding: 3rem;
 }
 
-.contact{
+.contact {
   background: url(../../assets//contact.png);
 }
 
-.contact_title{
+.contact_title,
+.button_contact {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 5s ease-in-out, transform 5s ease-in-out;
+}
+
+.contact_title {
   color: white;
 }
 
-.contact_flex{
+.button_contact {
+  justify-content: center;
+  align-items: center;
+  background-color: #0c286a;
+  color: rgb(248, 244, 244);
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+.button_contact:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.contact_title.animated,
+.button_contact.animated {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contact_flex {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
+
+/* Rest of your existing styles... */
+
 
 .button_contact{
   justify-content: center;

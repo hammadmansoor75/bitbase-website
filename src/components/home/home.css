@@ -157,6 +157,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-align: center;
+  border-color: #0c286a;
 }
 .form-service:hover {
   background-color: grey;
