@@ -1,0 +1,40 @@
+.services_page_container {
+    row-gap: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.content_section {
+    margin-left: 100px;
+}
+
+.our_services_image {
+    width: 50%;
+    height: auto;
+}
+
+.main_heading{
+    font-size: 50px;
+    line-height: normal;
+    word-spacing: normal;
+    font-weight: bolder;
+}
+
+.heading_span{
+    color: #000040;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
