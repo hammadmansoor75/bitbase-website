@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './header.css';
 import mainlogo from '../../assets/mainlogo-removebg.png'
+import { Link } from 'react-router-dom';
 export default function Header() {
   /* Change Background Header */
   window.addEventListener('scroll', function () {
@@ -13,40 +14,40 @@ export default function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <Link to="/" className="nav__logo">
           <img src = {mainlogo} className='mainlogo' alt='logo' ></img>
-        </a>
+        </Link>
 
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a
-                href="#home"
+              <Link
+                to ="/"
                 onClick={() => setActiveNav('#home')}
                 className={
                   activeNav === '#home' ? 'nav__link active-link' : 'nav__link'
                 }
               >
                 <i className="uil uil-estate nav__icon"></i> Home
-              </a>
+              </Link>
             </li>
 
             <li className="nav__item">
-              <a
-                href="#about"
+              <Link
+                to="/about"
                 onClick={() => setActiveNav('#about')}
                 className={
                   activeNav === '#about' ? 'nav__link active-link' : 'nav__link'
                 }
               >
                 <i className="uil uil-user nav__icon"></i> About
-              </a>
+              </Link>
             </li>
 
 
             <li className="nav__item">
-              <a
-                href="#services"
+              <Link
+                to="/services"
                 onClick={() => setActiveNav('#services')}
                 className={
                   activeNav === '#services'
@@ -55,14 +56,14 @@ export default function Header() {
                 }
               >
                 <i className="uil uil-briefcase-alt nav__icon"></i> Services
-              </a>
+              </Link>
             </li>
 
            
 
             <li className="nav__item rounded-btn">
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
                 onClick={() => setActiveNav('#contact')}
                 className={
                   activeNav === '#contact'
@@ -71,7 +72,7 @@ export default function Header() {
                 }
               >
                 <i className="uil uil-message nav__icon"></i> Book a Call?
-              </a>
+              </Link>
             </li>
           </ul>
 
