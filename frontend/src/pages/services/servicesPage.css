@@ -60,17 +60,58 @@
     grid-template-columns: repeat(3,350px);
     justify-content: center;
 }
-
-.service_card{
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .service_card {
     background-color: white;
     padding: 10px 20px;
     margin: 20px;
-    /* border: 1px solid rgba(73, 44, 236, 0.1); */
     border: 1.5px solid #000040;
     border-radius: 20px;
-    box-shadow: inset;
+  }
+  
+  .service_card:nth-child(odd) {
+    animation: slideInLeft 1s ease-out, float 3s ease-in-out 0.5s infinite;
+}
+  
+.service_card:nth-child(even) {
+    animation: slideInRight 1s ease-out, float 3s ease-in-out 0.5s infinite;
 }
 
+  
+  
 
 .service_card_icon{
     height: 40px;

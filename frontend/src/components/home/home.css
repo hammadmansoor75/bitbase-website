@@ -360,26 +360,129 @@
   .home__img {
     order: initial;
     justify-self: initial;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 0 0 0 6px rgba(255, 255, 255, 0.3);
   }
 
   .home__data {
     grid-column: 1/3;
   }
 
-  .home__img {
-    width: 200px;
-    height: 200px;
-    box-shadow: inset 0 0 0 6px rgba(255 255 255/30%);
-  }
-
   .home__scroll {
     display: none;
+  }
+
+  .form-container {
+    max-width: 90%;
+    margin-right: 0;
+    padding: 1.5rem;
+  }
+
+  .form-heading {
+    font-size: 1.6rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-service {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .form-button button {
+    width: 100%;
+  }
+
+  .form-field input[type="text"], .form-field textarea {
+    padding: 0.6rem;
+  }
+
+  .form-buttonn {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .form-buttonn button {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 576px) {
 }
+@media screen and (max-width: 576px) {
+  .home__container {
+    row-gap: 5rem;
+  }
 
+  .home__content {
+    grid-template-columns: 1fr;
+    padding-top: 4rem;
+  }
+
+  .home__heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .home__subtitle {
+    padding-left: 2rem;
+    font-size: var(--h4-font-size);
+  }
+
+  .home__subtitle::before {
+    width: 30px;
+    top: 0.7rem;
+  }
+
+  .home__description {
+    text-align: center;
+  }
+
+  .home__img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .home__scroll {
+    margin-left: 5rem;
+  }
+
+  .form-container {
+    max-width: 100%;
+    margin-right: 0;
+    padding: 1.5rem;
+  }
+
+  .form-heading {
+    font-size: 1.5rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-button button {
+    width: 100%;
+  }
+
+  .form-field input[type="text"],
+  .form-field textarea {
+    padding: 0.5rem;
+  }
+
+  .form-buttonn {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .form-buttonn button {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 350px) {
   .home__img {
     width: 180px;

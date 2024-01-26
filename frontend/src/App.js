@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Service2 from './components/services/Service2';
-import Qualification from './components/qualification/Qualification';
+import Qualification from './components/Principles/Qualification';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Scrollup from './components/scrollup/Scrollup';
