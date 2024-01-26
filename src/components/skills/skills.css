@@ -33,10 +33,10 @@
 }
 
 .skills__title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--font-medium);
   text-align: center;
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: 10px;
   position: relative; /* Add position relative to the parent */
   color: #0c286a;
 }
@@ -96,6 +96,7 @@
   font-weight: bold; /* Adjust the font weight if needed */
   color: #0c286a; /* Set the text color */
   border: 3px solid #f49529; /* Add a border if desired */
+  margin-bottom: 8px;
 }
 
 @media screen and (max-width: 992px) {
