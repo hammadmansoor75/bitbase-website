@@ -12,6 +12,8 @@ import Scrollup from './components/scrollup/Scrollup';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import HomePage from './pages/home/HomePage';
 import ServicesPage from './pages/services/ServicesPage';
+import ContactPage from './pages/contact/ContactPage';
+
 function App() {
   return (
 
@@ -21,6 +23,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage/>} ></Route>
           <Route path='/services' element={<ServicesPage/>} ></Route>
+          <Route path='/contact' element={<ContactPage/>} ></Route>
         </Routes>
         <Footer />
         <Scrollup />

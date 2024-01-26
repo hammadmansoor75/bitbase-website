@@ -37,7 +37,7 @@ export default function Home() {
             </div>
 
             <div className="form-button">
-              <button type="button">Next <span>&rarr;</span></button>
+              <button type="button">Submit <span>&rarr;</span></button>
             </div>
           </div>
         </div>
