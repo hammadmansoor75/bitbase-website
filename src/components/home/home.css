@@ -158,6 +158,7 @@
   transition: background-color 0.3s ease;
   text-align: center;
   border-color: #0c286a;
+  font-size: 14px;
 }
 .form-service:hover {
   background-color: grey;
@@ -252,6 +253,66 @@
   font-size: 1.25rem;
   color: var(--title-color);
 }
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-field {
+  width: 100%; /* Adjust width as needed */
+  margin-bottom: 1rem;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #0c286a;
+  font-size: 14px;
+}
+
+.form-field input[type="text"],
+.form-field textarea {
+  width: 100%; /* Adjust width as needed */
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  border-color: #628ef5;
+  
+}
+.form-field textarea {
+  height: 80px;
+}
+
+.form-field textarea {
+  resize: vertical; /* Allows resizing textarea vertically */
+}
+.form-buttonn{
+  display: flex;
+  gap: 30px;
+  margin-left: 28px;
+}
+
+/* Modify the submit button style if needed */
+.form-buttonn button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color:rgb(21, 21, 54);
+  color: white;
+  border: none;
+  border-radius: 20px; /* Adjust the border-radius for the curve effect */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  position: relative;
+  
+}
+
+.form-button button:hover {
+  background-color: #0a224e; /* Darker shade for hover */
+}
+
 
 @media screen and (max-width: 992px) {
   .home__content {

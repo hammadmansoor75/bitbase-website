@@ -13,6 +13,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import HomePage from './pages/home/HomePage';
 import ServicesPage from './pages/services/ServicesPage';
 import ContactPage from './pages/contact/ContactPage';
+import AboutPage from './pages/about/AboutPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/' element={<HomePage/>} ></Route>
           <Route path='/services' element={<ServicesPage/>} ></Route>
           <Route path='/contact' element={<ContactPage/>} ></Route>
+          <Route path='/about' element={<AboutPage/>} ></Route>
         </Routes>
         <Footer />
         <Scrollup />
