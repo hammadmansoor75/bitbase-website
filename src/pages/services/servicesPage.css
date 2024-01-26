@@ -1,24 +1,24 @@
 .services_page_container {
-    row-gap: 7rem;
+    row-gap: 7rem;   
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    gap: 20px;
 }
 
 .image_section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 300px;
+   /* border: 1px solid black; */
 }
 
 .content_section {
-    margin-left: 100px;
+    padding: 20px;
+    margin-left:100px ;
 }
 
 .our_services_image {
-    width: 50%;
+    width: auto;
     height: auto;
+    
 }
 
 .main_heading{
@@ -37,4 +37,96 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
+
+.content h1{
+    font-size: xx-large;
+    color: #000040;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.content p{
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.cards{
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    justify-content: center;
+}
+
+.service_card{
+    background-color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 1px solid rgba(73, 44, 236, 0.1);
+    /* border: 1.5px solid #000040; */
+    border-radius: 20px;
+    box-shadow: inset;
+}
+
+
+.service_card_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.service_card_content h1{
+    font-size: larger;
+    color: #000040;
+    font-weight: bold;
+}
+
+.service_card_content p{
+    font-size: medium;
+}
+
+
+@media screen and (max-width: 992px) {
+    .cards{
+        grid-template-columns: repeat(3,250px);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+   .cards{
+    grid-template-columns: repeat(2,250px);
+   }
+   .services_page_container {
+    display: block;
+   }
+   .content_section{
+    margin-left: 30px;
+   }
+   .main_heading{
+    font-size: 40px;
+   }
+   .content h1{
+    font-size: 30px;
+   }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .cards{
+        grid-template-columns: repeat(1,250px);
+    }
+    .services_page_container {
+        display: block;
+    }
+    .content_section{
+        margin-left: 30px;
+    }
+    .main_heading{
+        font-size: 30px;
+    }
+    .content h1{
+        font-size: 18px;
+    }
+  }
+  
