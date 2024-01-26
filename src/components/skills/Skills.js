@@ -7,8 +7,8 @@ import Evolve from './Evolve';
 export default function Skills() {
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title skills_title">Our proven process</h2>
-      <span className="section__subtitle">Marketing fundamentals drive results – not tactics or fads. That’s what our approach is all about: <br></br> universal performance marketing truths that stand the test of time and help you win.</span>
+      <h2 className="section__title skills_title">BitBase Marketing Team Process:</h2>
+      <span className="section__subtitle">BitBase marketing team provides you with comprehensive solutions for go-to-market strategy <br></br>It doesn't stop here, our team of experts will be supporting you throughout the project.</span>
       <div className="skills__container container grid">
         <Frontend></Frontend>
         <Backend></Backend>

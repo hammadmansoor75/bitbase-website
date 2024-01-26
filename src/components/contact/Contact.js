@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { animateScroll as scroll } from 'react-scroll'; // Import the animateScroll function
 import './contact.css';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   const form = useRef();
@@ -53,9 +54,11 @@ export default function Contact() {
     <section className="contact section" id="contact">
       <div className='contact_flex'>
         <h2 className="section__title contact_title">Ready to talk digital? </h2>
-        <button className='button button_contact' onClick={scrollToTop}>
-          Get Started With a Free Audit
+        <Link to='/contact'>
+        <button className='button button_contact'>
+          Get Started With Us
         </button>
+        </Link>
       </div>
     </section>
   );
