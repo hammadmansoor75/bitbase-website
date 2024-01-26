@@ -80,6 +80,15 @@
     height: var(--header-height);
   }
 
+  .nav__link{
+    color: #000040;
+  }
+
+  .active-link,
+.nav__link:hover {
+  color: #000040;
+}
+
   .nav__menu {
     position: fixed;
     bottom: -100%;
@@ -138,7 +147,21 @@
     padding: 2rem 0.25rem 4rem;
   }
 
+  .active-link,
+.nav__link:hover {
+  color: black;
+}
+
   .nav__list {
     column-gap: 0;
+  }
+
+  .rounded-btn{
+    background-color: white;
+    border: none;
+  }
+
+  .nav__link{
+    color: #000040;
   }
 }

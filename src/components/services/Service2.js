@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './services.css';
+import { BsCashStack } from 'react-icons/bs';
+import { FcAdvertising, FcManager, FcOnlineSupport, FcServices } from 'react-icons/fc';
+import { MdChecklist } from 'react-icons/md';
+import { TbSocial } from 'react-icons/tb';
 export default function Service2() {
   const [toggleState, setToggleState] = useState(0);
   const toggleTab = (index) => {
@@ -7,150 +11,74 @@ export default function Service2() {
   };
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What I offer</span>
-      <div className="services__container container grid">
-        <div className="services__content">
-          <i className="uil uil-web-grid services__icon"></i>
-          <h3 className="services__title">Software Development</h3>
+      <h2 className="services__title">Services</h2>
+      <span className="services__subtitle">What we offer to our customers</span>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
-            View More <i className="uil uil-arrow-right"></i>
-          </span>
+      <div className='cards'>
+          <div className='service_card'>
+            <BsCashStack className='service_card_icon' />
+            
+            <div className='service_card_content'>
+              <h1>VC Funding</h1>
+            
+            </div>
+          </div>
 
-          <div
-            className={
-              toggleState === 1
-                ? 'services__modal active-modal'
-                : 'services__modal'
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                className="uil uil-times services__modal-close"
-                onClick={() => toggleTab(0)}
-              ></i>
-              <h3 className="services__modal-title">Software Development</h3>
-              <p className="services__modal-description">
-                Services with more than one years of experience. Providing
-                quality work to clients.
-              </p>
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Desktop Application Development
-                  </p>
-                </li>
+          <div className='service_card'>
+          <FcOnlineSupport className='service_card_icon' />
+            
+            <div className='service_card_content'>
+              <h1>Advisors</h1>
+              
+            </div>
+          </div>
 
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Development</p>
-                </li>
+          <div className='service_card'>
+          <MdChecklist className='service_card_icon' />
+            
+            <div className='service_card_content'>
+              <h1>CEXs Listing</h1>
+              
+            </div>
+          </div>
 
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Software Testing</p>
-                </li>
-              </ul>
+          <div className='service_card'>
+          <FcAdvertising className='service_card_icon' />
+            
+            <div className='service_card_content'>
+              <h1>Marketing</h1>
+              
+            </div>
+          </div>
+
+          <div className='service_card'>
+          <FcServices className='service_card_icon' />
+            
+            <div className='service_card_content'>
+              <h1>Developers / Technical Support</h1>
+              
+            </div>
+          </div>
+
+          <div className='service_card'>
+          <FcManager className='service_card_icon' />
+            
+            <div className='service_card_content'>
+              <h1>Branding & Narrative Building</h1>
+              
+            </div>
+          </div>
+
+          
+          <div className='service_card'>
+          <TbSocial className='service_card_icon' />
+            
+            <div className='service_card_content'>
+              <h1>Social Media Marketing</h1>
             </div>
           </div>
         </div>
-
-        <div className="services__content">
-          <i class="uil uil-browser services__icon"></i>
-          <h3 className="services__title">Frontend Development</h3>
-
-          <span className="services__button" onClick={() => toggleTab(2)}>
-            View More <i className="uil uil-arrow-right"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 2
-                ? 'services__modal active-modal'
-                : 'services__modal'
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                className="uil uil-times services__modal-close"
-                onClick={() => toggleTab(0)}
-              ></i>
-              <h3 className="services__modal-title">Frontend Development</h3>
-              <p className="services__modal-description">
-                Services with more than one years of experience. Providing
-                quality work to clients.
-              </p>
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Landing Page</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Page</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Full Frontend of a website
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="services__content">
-          <i class="uil uil-brackets-curly services__icon"></i>
-          <h3 className="services__title">Backend Development</h3>
-
-          <span className="services__button" onClick={() => toggleTab(3)}>
-            View More <i className="uil uil-arrow-right"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 3
-                ? 'services__modal active-modal'
-                : 'services__modal'
-            }
-          >
-            <div className="services__modal-content">
-              <i
-                className="uil uil-times services__modal-close"
-                onClick={() => toggleTab(0)}
-              ></i>
-              <h3 className="services__modal-title">Backend Development</h3>
-              <p className="services__modal-description">
-                Services with more than one years of experience. Providing
-                quality work to clients.
-              </p>
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Backend APIs</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Backend using Node Js</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Full Backend Development for a website
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </section>
   );
 }

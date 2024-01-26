@@ -22,7 +22,7 @@ export default function Home() {
       <div className="home__container container grid">
         <div className="home__content grid">
           <div>
-            <h1 className='home__heading'>Drive growth at scale for your brand.</h1>
+            <h1 className='home__heading'>Strategic Funding and Growth Partner for Blockchain/Crypto Start-ups</h1>
           </div>
           
           {/* Form 1 Section */}

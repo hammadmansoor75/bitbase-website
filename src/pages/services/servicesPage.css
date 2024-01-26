@@ -65,8 +65,8 @@
     background-color: white;
     padding: 10px 20px;
     margin: 20px;
-    border: 1px solid rgba(73, 44, 236, 0.1);
-    /* border: 1.5px solid #000040; */
+    /* border: 1px solid rgba(73, 44, 236, 0.1); */
+    border: 1.5px solid #000040;
     border-radius: 20px;
     box-shadow: inset;
 }

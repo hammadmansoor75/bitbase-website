@@ -3,6 +3,7 @@ import Home from '../../components/home/Home'
 import Skills from '../../components/skills/Skills'
 import Qualification from '../../components/qualification/Qualification'
 import Contact from '../../components/contact/Contact'
+import Service2 from '../../components/services/Service2'
 
 const HomePage = () => {
   return (
@@ -10,8 +11,8 @@ const HomePage = () => {
         <Home></Home>
         {/* <About></About> */}
         <Skills></Skills>
-        {/* <Service2></Service2> */}
         <Qualification></Qualification>
+        <Service2></Service2> 
         <Contact></Contact>
     </main>
   )
