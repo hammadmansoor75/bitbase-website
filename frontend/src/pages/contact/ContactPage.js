@@ -46,10 +46,9 @@ const ContactPage = () => {
             </span>
           </h1>
         </div>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          <br />
-          Lorem Ipsum has been the industry's standard dummy text.
+        <p className='oline'>
+        Whether you're a crypto novice or a seasoned trader, our team is ready to assist you with your digital currency needs..
+          
         </p>
       </div>
       <div className="mainpage">
@@ -76,11 +75,11 @@ const ContactPage = () => {
         </div>
         <div className="right-div">
           <div className="inputhead">
-            <h1> Lorem Ipsum is simply dummy text</h1>
+            <h1>Get in Touch with the BitBase Team</h1>
           </div>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Printing and typesetting industry.
+          Contact us for more details and get customized marketing strategies tailored for
+          flourishing your project.
           </p>
           <form onSubmit={handleSubmit}>
             <div className="inputs-right">

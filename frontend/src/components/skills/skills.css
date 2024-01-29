@@ -6,6 +6,7 @@
 
 .skills{
   background-color: hwb(0 94% 4%);
+  
 }
 
 .skills_title{
@@ -30,6 +31,7 @@
   padding: 2rem 4rem;
   border-radius: 1.25rem;
   animation: fadeIn 5s ease-in-out; /* Apply the animation */
+  border-color: #0c286a;
 }
 
 .skills__title {

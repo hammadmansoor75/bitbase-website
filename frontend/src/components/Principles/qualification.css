@@ -84,7 +84,9 @@
 .inner_item:nth-child(5) {
   animation-delay: 0.8s; /* Adjust the delay between items */
 }
-
+.oline{
+  margin-top: 5px;
+}
 
 .inner_logo {
   width: 130px;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './qualification.css';
 import bitcoin from '../../assets/bitcoin.jpg'
+import bit from '../../assets/bit.JPG';
 import { BsSpeedometer } from "react-icons/bs";
 import { LuBinary } from "react-icons/lu"
 import { FcAdvertising } from "react-icons/fc";
@@ -49,7 +50,7 @@ export default function Qualification() {
     <section className="qualification section">
       <div className='main_container'>
         <div className='left_container'>
-          <img src={bitcoin} alt='btc' className='picture'></img>
+          <img src={bit} alt='btc' className='picture'></img>
           <h3 className='left_heading'>Refining Marketing Excellence: Our Core Principles</h3>
           <p className='left_content'>Embark on a journey of success guided by our meticulously crafted principles, the
 foundation of strategies that propel your project to new heights.</p>

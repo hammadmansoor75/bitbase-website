@@ -19,8 +19,8 @@ app.post('/send', (req, res) => {
     const { name, email, message } = req.body;
 
     const mailOptions = {
-        from: 'Shahbazcool',
-        to: email, // where you want to receive the messages
+        from: 'Bit-Base',
+        to: 'jehanzebrana01@gmail.com', // where you want to receive the messages
         subject: `Message from ${name}: ${email}`,
         text: message,
     };
