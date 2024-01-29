@@ -105,11 +105,11 @@
 
 .left_heading{
   color: #0c286a;
-  font-size: 3rem;
+  font-size: 2rem;
   
 }
-
 .left_content{
+  margin-top: 15px;
   font-size: 1.1rem;
 }
 

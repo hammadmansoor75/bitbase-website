@@ -53,10 +53,10 @@ export default function Contact() {
   return (
     <section className="contact section" id="contact">
       <div className='contact_flex'>
-        <h2 className="section__title contact_title">Ready to talk digital? </h2>
+        <h2 className="section__title contact_title">Ready for free consultation? </h2>
         <Link to='/contact'>
         <button className='button button_contact'>
-          Get Started With Us
+        Book a call now 
         </button>
         </Link>
       </div>

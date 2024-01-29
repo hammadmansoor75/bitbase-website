@@ -50,44 +50,46 @@ export default function Qualification() {
       <div className='main_container'>
         <div className='left_container'>
           <img src={bitcoin} alt='btc' className='picture'></img>
-          <h1 className='left_heading'>Our digital principles</h1>
-          <p className='left_content'>It doesn’t matter if you’re buying media or earning it through SEO and content. Following these 5 undying principles is the secret ingredient to our clients’ success. Ignore these at your peril.</p>
+          <h3 className='left_heading'>Refining Marketing Excellence: Our Core Principles</h3>
+          <p className='left_content'>Embark on a journey of success guided by our meticulously crafted principles, the
+foundation of strategies that propel your project to new heights.</p>
         </div>
         <div className='right_container'>
           <div className='inner_container'>
             <div className='inner_item'> 
               <BsSpeedometer className='inner_logo' />
               <div className='inner_content'>
-                <h2 className='inner_heading'>First, move the needle</h2>
-                <p className='inner_subheading'>Fact: you’re probably wasting (a lot of) money somewhere. Find that waste, cut it and reallocate to what’s working right now. Increase your results immediately and create momentum.</p>
+                <h2 className='inner_heading'>Strategic Momentum</h2>
+                <p className='inner_subheading'>Identify and reallocate resources efficiently, propelling your venture forward. Optimize
+your budget strategically for immediate impact, creating a ripple effect of success.</p>
               </div>
             </div>
             <div className='inner_item'>
               <LuBinary className='inner_logo' />
               <div className='inner_content'>
-                <h2>Get the data tight</h2>
-                <p>Your inputs determine your outputs. Good data = good decisions. And good decisions = good results. Clean, accurate and complete data is the linchpin of any winning campaign.</p>
+                <h2>Precision in Data Management</h2>
+                <p>Precision reigns supreme. Base your decisions on clean, accurate, and comprehensive data—a non-negotiable foundation for every successful campaign.</p>
               </div>
             </div>
             <div className='inner_item'>
               <FcAdvertising className='inner_logo' />
               <div className='inner_content'>
-                <h2>80/20 marketing</h2>
-                <p>20% of your marketing efforts lead to 80% of your results. Identify the leverage points in your 20% and focus efforts there for the biggest gains in performance.</p>
+                <h2>The 80/20 Rule for Triumph</h2>
+                <p>Decipher the pivotal 20% generating 80% of results. Delve into strategic elements, amplifying performance for maximum impact.</p>
               </div>
             </div>
             <div className='inner_item'>
               <FaDollarSign className='inner_logo' />
               <div className='inner_content'>
-                <h2>Revenue-generating activities</h2>
-                <p>Or RGAs for short. Marketing’s not just about sexy ideas and tactics. Do the hard work of refining and testing your campaigns. Over time, you’ll beat your shiny object-chasing competitors.</p>
+                <h2>Mastering Revenue Generation (MRG)</h2>
+                <p>Beyond flashy tactics, we prioritize the meticulous refinement and testing of campaigns.Our focus lies not only in captivating audiences.</p>
               </div>
             </div>
             <div className='inner_item'>
              <MdDoorSliding className='inner_logo' />
               <div className='inner_content'>
-                <h2>There’s always another level</h2>
-                <p>No matter how well a campaign or ad is doing, it can do better. Proactively research, test and evolve. You’ll unlock shocking new levels of growth and scale</p>
+                <h2>Unleashing Untapped Potential</h2>
+                <p>Challenge the norms. No matter your campaign's success, there is always room for growth. Proactively research, test, and evolve to unlock unprecedented levels of success.</p>
               </div>
             </div>
         
