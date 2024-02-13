@@ -3,10 +3,11 @@
 }
 
 .home{
-  background: url(../../assets//home-img.jpg);
+  /* background: url(../../assets//home-img.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #000040;
 }
 
 .home__heading{
@@ -18,6 +19,7 @@
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255,255,255,.5);
+  color: #0a224e;
 
 /* Clip Background Image */
 

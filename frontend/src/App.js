@@ -32,19 +32,7 @@ function App() {
       </BrowserRouter>
     </div>
 
-    // <div>
-    //   <Header></Header>
-    //   <main className="main">
-    //     <Home></Home>
-    //     {/* <About></About> */}
-    //     <Skills></Skills>
-    //     {/* <Service2></Service2> */}
-    //     <Qualification></Qualification>
-    //     <Contact></Contact>
-    //   </main>
-    //   <Footer></Footer>
-    //   <Scrollup></Scrollup>
-    // </div>
+    
   );
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import './servicesPage.css'
 import ourServices from '../../assets/our_services.png'
+import service from '../../assets/service.JPG'
 import { FcServices } from "react-icons/fc";
 import { BsCashStack } from "react-icons/bs";
 import { FcOnlineSupport } from "react-icons/fc";
@@ -16,7 +17,7 @@ const ServicesPage = () => {
         <div className='content_section'>
           <h1 className='main_heading'>Our <span className='heading_span'>Services</span> </h1>
           <p>
-          Dive into a world of crypto excellence with <strong>Bitbase</strong>. Our suite of services, including secure wallet solutions, seamless trading platforms, and innovative investment tools, is designed to empower your digital financial journey. Prioritizing privacy, we ensure the confidentiality of your transactions. With a dedicated support team and expert consultations, we guide you through every step, ensuring confidence in your crypto decisions. At <strong>Bitbase</strong>, we're not just a service provider but your trusted partner in navigating the dynamic realm of cryptocurrencies.
+          We offer comprehensive marketing solutions for blockchain startups, ranging from Digital marketing to PR & KOLs campaigns across the globe. Boost your blockchain project's visibility and engagement with our comprehensive digital marketing services. From targeted campaigns to strategic content creation, we tailor our approach to amplify your brand in the digital landscape. Our team harnesses the power of online platforms to connect with your target audience, drive conversions, and build lasting brand recognition.
           </p>
         </div>
         <div className='image_section'>

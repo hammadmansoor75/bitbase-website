@@ -6,6 +6,7 @@ import vector from "../../assets/Contact/Group.png";
 import location from "../../assets/Contact/location.png";
 import phone from "../../assets/Contact/phone.png";
 import mail from "../../assets/Contact/mail.png";
+import big from '../../assets/big.JPG';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({

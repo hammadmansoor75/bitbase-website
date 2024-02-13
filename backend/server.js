@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: '', // Your Gmail address
-        pass: '', // Your Gmail password
+        user: 'shahbazcool606@gmail.com', // Your Gmail address
+        pass: 'upka uohq zhtl dgae', // Your Gmail password
     },
 });
 
@@ -34,6 +34,10 @@ app.post('/send', (req, res) => {
             res.send('success'); // if success
         }
     });
+});
+
+app.get('/', (req, res) => {
+    res.send('Hello World!');
 });
 
 const PORT = process.env.PORT || 3001;
